@@ -12,6 +12,10 @@ Time: O(n²)
 Space: O(1)
 */
 
+//added these just to remove the red errors
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     void pattern1(int n) {

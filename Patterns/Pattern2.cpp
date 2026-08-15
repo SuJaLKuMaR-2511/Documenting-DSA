@@ -12,6 +12,10 @@ Time Complexity: O(n²)
 Space Complexity: O(1)
 */
 
+//added these just to remove the red errors
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     void pattern2(int n) {
