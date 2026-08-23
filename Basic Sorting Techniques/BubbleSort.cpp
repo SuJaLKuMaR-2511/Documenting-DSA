@@ -15,14 +15,6 @@ void bubbleSort(int arr[], int n){
                 didSwap = 1; //if swaps done ever...means it was worst or avg case
             }
         }
-
-        
-        cout << "Step " << i-n+2 << " : ";
-        for(int k=0;k<n;k++){
-            cout << arr[k] << " ";
-        }
-        cout << endl;
-
         if(didSwap == 0){
             break;
         }
