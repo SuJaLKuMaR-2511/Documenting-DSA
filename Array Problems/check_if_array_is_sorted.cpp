@@ -3,7 +3,7 @@ using namespace std;
 
 void rotatedarray(vector<int> &arr,int n, int x){
     
-    x = x%n;
+    x = x%n; // remove or keep...choice
     vector<int> temp(n);
 
     for(int i=0;i<n;i++){
